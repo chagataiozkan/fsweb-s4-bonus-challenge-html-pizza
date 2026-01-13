@@ -59,13 +59,13 @@ body {
   margin-top: 1rem;
 }
 
-
 .list-contents {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-bottom: 1rem;
   background-color: white;
+  z-index: 1;
 } 
 
 .list-contents li{
@@ -79,4 +79,173 @@ body {
   font-family: "Barlow";
   font-weight: 500;
   padding: 1.5rem 1rem;
+}
+
+.cta-contents {
+  display: flex;
+  justify-content: center;
+  margin: 4rem 16rem;
+}
+
+.cta-contents img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.cta-card-1 img {
+  margin-right: 1rem;
+}
+
+.cta-card-1 {
+  position: relative;
+}
+
+.cta-card-1 p:first-of-type {
+  position: absolute;
+  top: 5rem;
+  left: 2rem;
+  font-family: "Quattrocento";
+  font-weight: bold;
+  font-size: 4rem;
+  color: white;
+}
+
+.cta-card-1 p:nth-of-type(2) {
+  position: absolute;
+  top: 10rem;
+  left: 2rem;
+  font-family: "Quattrocento";
+  font-weight: bold;
+  font-size: 4rem;
+  color: white;
+}
+
+.cta-card-1 p:last-of-type {
+  position: absolute;
+  top: 15rem;
+  left: 2rem;
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+}
+
+.cta-card-1 a {
+  position: absolute;
+  top: 18rem;
+  left: 2rem;
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 1rem;
+  color: #CE2829;
+  background-color: white;
+  border-radius: 2rem;
+  padding: 1.5rem 2.5rem;
+}
+
+.cta-card-2 {
+  position: relative;
+}
+
+.cta-card-2 p:first-of-type {
+  position: absolute;
+  top: 3rem;
+  left: 2rem;
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 2rem;
+  color: white;
+  line-height: 3rem;
+}
+
+.cta-card-2 p:last-of-type {
+  position: absolute;
+  top: 6rem;
+  left: 2rem;
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 2rem;
+  color: white;
+  line-height: 3rem;
+}
+
+.cta-card-2 a {
+  position: absolute;
+  top: 10rem;
+  left: 2rem;
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 1rem;
+  color: #CE2829;
+  background-color: white;
+  border-radius: 2rem;
+  padding: 1.5rem 2.5rem;
+}
+
+.cta-card-3 {
+  position: relative;
+}
+
+.cta-card-3 p:first-of-type {
+  position: absolute;
+  top: 3rem;
+  left: 2rem;
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 2rem;
+  color: black;
+  line-height: 3rem;
+}
+
+.cta-card-3 p:last-of-type {
+  position: absolute;
+  top: 6rem;
+  left: 2rem;
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 2rem;
+  color: black;
+  line-height: 3rem;
+}
+
+.cta-card-3 a {
+  position: absolute;
+  top: 10rem;
+  left: 2rem;
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 1rem;
+  color: #CE2829;
+  background-color: white;
+  border-radius: 2rem;
+  padding: 1.5rem 2.5rem;
+}
+
+.button-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.button-list button {
+  display: flex;
+  flex-direction: row;
+  padding: 1.5rem 1rem;
+  background-color: white;
+  border: none;
+  padding: 0 2rem;
+  border-radius: 3rem;
+}
+
+.button-list button p {
+  font-family: "Barlow";
+  font-weight: 500;
+  padding: 1.5rem 0rem;
+  margin-left: 1rem;
+  font-size: 1rem;
 }
