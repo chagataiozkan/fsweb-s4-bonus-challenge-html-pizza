@@ -78,10 +78,14 @@ body {
   z-index: 1;
 } 
 
-.list-contents li{
+.list-content {
   display: flex;
   flex-direction: row;
   padding: 1.5rem 1rem;
+}
+
+.list-content img {
+  max-width: 30%;
 }
 
 .list-contents p {
@@ -94,6 +98,8 @@ body {
 .cta-contents {
   display: flex;
   justify-content: center;
+  align-items: stretch;
+  gap: 1rem;
   margin: 4rem 4rem;
 }
 
@@ -116,13 +122,13 @@ body {
   margin-bottom: 1rem;
   width: 100%;
   height: auto;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .cta-card-3 img {
   width: 100%;
   height: auto;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .cta-card-1 {
@@ -157,7 +163,7 @@ body {
   left: 7%;
   font-family: "Barlow";
   font-weight: 600;
-  font-size: clamp(10px, 5vw, 20px);
+  font-size: clamp(0.5rem, 5vw, 1.5rem);
   color: white;
 }
 
@@ -308,6 +314,10 @@ body {
   font-size: 1rem;
 }
 
+.button-content img {
+  max-width: 30%;
+}
+
 .priced-contents {
   display: flex;
   justify-content: center;
@@ -318,6 +328,7 @@ body {
 .priced-contents img {
   object-fit: cover;
   margin-bottom: 1rem;
+  max-width: 100%;
 }
 
 .priced-contents > div {
