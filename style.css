@@ -145,7 +145,7 @@ body {
 
 .cta-card-1 p:first-of-type {
   position: absolute;
-  top: 10%;
+  top: 10%; 
   left: 7%;
   font-family: "Quattrocento";
   font-weight: bold;
@@ -453,6 +453,7 @@ body {
 
 .copyright-section {
   display: flex;
+  padding: 2rem 2rem;
   justify-content: space-between;
   background: #1A1A1A;
   color: white;
@@ -526,7 +527,7 @@ body {
   }
 
   .button-content img{
-    width: 30%;
+    max-width: 30%;
   }
 
   .priced-contents {
